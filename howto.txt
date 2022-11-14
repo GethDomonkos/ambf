@@ -1,0 +1,28 @@
+------------------Python HowTo---------------------------
+cd ~/ambf/build				|
+cmake ..					|ez nem midnig kell
+make						|
+
+cd ~/ambf/bin/lin-x86_64
+./ambf_simulator -l 5
+
+--------------ha nem tud importálni----------------------
+source ~/ambf/build/devel/setup.bash
+
+
+------ambf/ambf_controller/dvrk/scripts mappában---------
+python3 ./testpsmIK.py
+
+
+
+
+
+
+-------------------------C++ HowTo-----------------------
+cd ~/ambf/build
+cmake ..					
+make
+
+cd ~/ambf/bin/lin-x86_64
+./ambf_simulator -l 5
+./psm_ik_test

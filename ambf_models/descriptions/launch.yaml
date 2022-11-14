@@ -27,3 +27,9 @@ multibody configs:
   - "./multi-bodies/environments/KnotEnv2/env.yaml" #20
   - "./multi-bodies/environments/KnotEnv3/env.yaml" #21
   - "./multi-bodies/environments/TexturedGround/env.yaml" #22
+  - "./multi-bodies/robots/blender-psm-old.yaml" #23
+  - "./multi-bodies/robots/blender-psm-springy.yaml" #24
+  - "./multi-bodies/puzzles/puzzle4s.yaml" #25
+  - "./multi-bodies/puzzles/peg_and_base.yaml" #26
+  - "./mutli-bodies/robots/urdf-psm.yaml" #27
+  - "./multi-bodies/puzzles/pick_place.yaml" #28
