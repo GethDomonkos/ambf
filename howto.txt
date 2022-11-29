@@ -10,7 +10,8 @@ cd ~/ambf/bin/lin-x86_64
 source ~/ambf/build/devel/setup.bash
 
 
-------ambf/ambf_controller/dvrk/scripts mappában---------
+------python script---------
+cd ~/ambf/ambf_controller/dvrk/scripts
 python3 ./testpsmIK.py
 
 
