@@ -91,8 +91,8 @@ def test_ambf_psm2():
         print(T_7_0[2])
         print(T_7_0[2,3])
         
-        T_7_0[2,3] = T_7_0[2,3] - (i/50)
-        #T_7_0[1,3] = T_7_0[1,3] + (i/50)
+        #T_7_0[2,3] = T_7_0[2,3] - (i/50)
+        T_7_0[1,3] = T_7_0[1,3] + (i/50)
 
         if target_ik is not None:
             P_0_w = Vector(b.get_pos().x, b.get_pos().y, b.get_pos().z)
